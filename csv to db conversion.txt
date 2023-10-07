@@ -1,0 +1,19 @@
+<?php
+
+$sql = "LOAD DATA INFILE \"canonpowershotsd500.csv\" INTO TABLE canonpowershot\n"
+    . " FIELDS TERMINATED BY \",\" \n"
+    . " LINES TERMINATED BY \"\\n\" \n"
+    . " ( Aspect,Positive,Negative,Opinion)";
+
+									
+	LOAD DATA INFILE 'kidney_dataset.csv' INTO TABLE ckd_data
+                                FIELDS TERMINATED BY "," 
+                                LINES TERMINATED BY "\n" 
+                               (id,age,Bp,albumin,sugar,RBC,pus_cell,bacteria,random_sugar,blood_urea,serum_creatine.sodium,pottasium,Hemoglobin,white_blood_cell,red_blood_cell,Hpertension,diabetes_melitus,cad,appetite,anemia,class);	
+
+
+
+
+							
+?>
+
